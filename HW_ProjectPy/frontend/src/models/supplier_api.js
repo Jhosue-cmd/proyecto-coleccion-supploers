@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/suppliers'; 
+const API_URL = 'https://backend-suppliers.onrender.com/api/suppliers'; 
 
 export const SupplierAPI = {
     getAll: async () => {
